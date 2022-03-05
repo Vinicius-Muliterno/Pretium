@@ -1,0 +1,32 @@
+{
+  "name": "onestop/pretium",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Brenno Luan",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php",
+      "source/Helpers.php"
+    ]
+  },
+  "require": {
+    "php": "^7.3",
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "coffeecode/router": "1.0.*",
+    "coffeecode/datalayer": "1.1.*",
+    "league/plates": "v4.0.0-alpha",
+    "igorescobar/jquery-mask-plugin": "v1.14.1",
+    "fortawesome/font-awesome": "5.15.4",
+    "coffeecode/paginator":  "1.0.7"
+  }
+}
